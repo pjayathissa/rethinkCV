@@ -1,0 +1,56 @@
+[
+    {
+        "importance": 5,
+        "startYear": 2013,
+        "endYear": 2016,
+        "skills": ["engineering", "management","start-up", "research", "python", "programming", "architecture"],
+        "type": "job", 
+        "country": "Switzerland",
+        "id": "phd-eth", 
+        "imageUrl": "img/phd/HiLo.jpg", 
+        "name": "PhD ETH Zuerich", 
+        "snippet": "PhD in Sustainable Architecture. Integration of thin film photovoltaic panels to the existing building stock.",
+        "mainText": "The thesis focuses on the use of thin film photovoltaic technologies as adaptive building envelopes"
+    }, 
+    {
+        "importance": 5,
+        "startYear": 2011,
+        "endYear": 2014,
+        "skills": ["engineering", "management","start-up"],
+        "type": "company", 
+        "country": "New Zealand",
+        "id": "motorola-xoom", 
+        "imageUrl": "img/phones/motorola-xoom.0.jpg", 
+        "name": "PJDobbie Engineering", 
+        "snippet": "I own and run an engineering consultancy, which provides technical expertise to start-up companies and SMEs",
+        "mainText": "I own and run an engineering consultancy, which provides technical expertise to start-up companies and SMEs. Projects included, electric bike prototyping, wind site analysis, surgical tool prototyping, laptop locking design, geothermal pipe design and design of an avalanche testing drill."
+    }, 
+    {
+        "importance": 5,
+        "startYear": 2015,
+        "endYear": 2016,
+        "skills": ["management","NGO", "humanitarian support", "refugee support"],
+        "type": "organisation", 
+        "country": "Greece",
+        "carrier": "AT&T", 
+        "id": "motorola-atrix-4g", 
+        "imageUrl": "img/phones/motorola-atrix-4g.0.jpg", 
+        "name": "Action From Switzerland", 
+        "snippet": "Humanitarian aid to the Greek Islands",
+        "mainText": "Action from Switzerland ensures that vulnerable refugees are able to enjoy their rights on an equal basis, in safety and dignity through effective and coordinated aid"
+    }, 
+    {
+        "importance": 3,
+        "startYear": 2013,
+        "endYear": 2014,
+        "skills": ["engineering", "management","start-up", "biomedicine"],
+        "type": "project", 
+        "country": "Switzerland",
+        "id": "dell-streak-7", 
+        "imageUrl": "img/phones/dell-streak-7.0.jpg", 
+        "name": "Wound Healing Patch", 
+        "snippet": "Master Thesis: Design and manufacture of new plaster technology that heals large burns and wounds faster than traditional methods.",
+        "mainText": "Plasters and stuff"
+    }
+
+]

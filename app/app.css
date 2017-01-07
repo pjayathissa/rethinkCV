@@ -7,6 +7,14 @@ h1 {
   margin-top: 0;
 }
 
+div.bar {
+    display: inline-block;
+    width: 20px;
+    height: 75px;   /* We'll override this later */
+    background-color: teal;
+}
+
+
 /* View: Phone list */
 .phones {
   list-style: none;
@@ -18,12 +26,26 @@ h1 {
   padding-top: 15px;
 }
 
+.pjframe{
+height:100px;
+width:100px;
+vertical-align: bottom;
+}
+
 .thumb {
   float: left;
   height: 100px;
-  margin: -0.5em 1em 1.5em 0;
+  margin: -0.0em 1em 1.5em 0;
   padding-bottom: 1em;
+  display: block;
   width: 100px;
+  position: relative;
+}
+
+.thumb-helper {
+    display: block;
+    height: 10%;
+    vertical-align: middle;
 }
 
 /* View: Phone detail */
@@ -31,7 +53,7 @@ h1 {
   background-color: white;
   display: none;
   float: left;
-  height: 400px;
+  height: auto;
   margin-bottom: 2em;
   margin-right: 3em;
   padding: 2em;
@@ -57,18 +79,19 @@ h1 {
 }
 
 .phone-thumbs img {
-  height: 100px;
+  height: auto;
   padding: 1em;
   width: 100px;
 }
 
 .phone-thumbs li {
   background-color: white;
-  border: 1px solid black;
+  border: 0px solid black;
   cursor: pointer;
   display: inline-block;
   margin: 1em;
 }
+
 
 .specs {
   clear: both;
@@ -90,4 +113,41 @@ h1 {
 .specs > li > span {
   font-size: 1.2em;
   font-weight: bold;
+}
+
+/* World Map Styles */
+
+#canvas {
+}
+
+#canvas-svg {
+}
+
+
+.land {
+  fill: #222;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+#tooltip-container {
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border: 1px solid;
+  display: none;
+}
+
+.tooltip_key {
+  font-weight: bold;
+}
+
+.tooltip_value {
+  margin-left: 20px;
+  float: right;
 }

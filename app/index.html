@@ -15,6 +15,10 @@
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/underscore/underscore.js"></script>
+    <script type="text/javascript" src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/topojson/dist/topojson.js"></script>
+    <script src="bower_components/d3-geo/build/d3-geo.js"></script>
+
     <script src="app.module.js"></script>
     <script src="app.config.js"></script>
     <script src="app.animations.js"></script>
@@ -22,12 +26,19 @@
     <script src="core/checkmark/checkmark.filter.js"></script>
     <script src="core/phone/phone.module.js"></script>
     <script src="core/phone/phone.service.js"></script>
+    <script src="core/experience/experience.module.js"></script>
+    <script src="core/experience/experience.service.js"></script>
     <script src="phone-list/phone-list.module.js"></script>
     <script src="phone-list/phone-list.component.js"></script>
     <script src="phone-detail/phone-detail.module.js"></script>
     <script src="phone-detail/phone-detail.component.js"></script>
     <script src="standard-list/standard-list.module.js"></script>
     <script src="standard-list/standard-list.component.js"></script>
+    <script src="experience-detail/experience-detail.module.js"></script>
+    <script src="experience-detail/experience-detail.component.js"></script>
+    <script src="world-map/world-map.module.js"></script>
+    <script src="world-map/world-map.component.js"></script>
+
   </head>
   <body>
 
@@ -37,8 +48,9 @@
       <a class="navbar-brand" href="#">rethinkCV</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="navbar-item"><a class="navbar-link" href="#!/phones">World Map</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="#!/phones">Phone Tutorial</a></li>
       <li class="navbar-item"> <a class="navbar-link" href="#!/standard-list">Classic View</a></li>
+      <li class="navbar-item"> <a class="navbar-link" href="#!/world-map">World Map</a></li>
     </ul>
   </div>
 </nav>

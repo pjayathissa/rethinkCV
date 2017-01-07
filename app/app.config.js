@@ -13,9 +13,15 @@ angular.
         when('/standard-list', {
           template: '<standard-list></standard-list>'
         }).
+        when('/world-map', {
+          template: '<world-map></world-map>'
+        }).
         when('/phones/:phoneId', {
           template: '<phone-detail></phone-detail>'
         }).
-        otherwise('/phones');
+        when('/experiences/:experienceId', {
+          template: '<experience-detail></experience-detail>'
+        }).
+        otherwise('/standard-list');
     }
   ]);

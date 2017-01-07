@@ -28,10 +28,12 @@
       <ul class="border-box">
         <li ng-repeat="experience in $ctrl.newList | filter:$ctrl.query |  orderBy:$ctrl.orderProp"
             class="thumbnail phone-list-item">
-          <a href="#!/phones/{{phone.id}}" class="thumb">
-            <!--<img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}" />-->
+          <a href="#!/experience/{{phone.id}}" class="thumb">
+
+            <img ng-src="{{experience.imageUrl}}" alt="{{experience.name}}" />
+
           </a>
-          <a href="#!/phones/{{experience.id}}">{{experience.name}}</a>
+          <a href="#!/experiences/{{experience.id}}">{{experience.name}}</a>
           <p>{{experience.startYear}}-{{experience.endYear}}</p>
           <p>{{experience.snippet}}</p>
         </li>

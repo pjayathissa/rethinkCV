@@ -11,7 +11,7 @@ angular.
       this.orderProp = '-importance';
 
 
-      $http.get('experience/experience.json').then(function(response) {
+      $http.get('experiences/experience.json').then(function(response) {
       self.experiences = response.data;
       self.newList=self.experiences;
       //aquire a list of skills from experience.json

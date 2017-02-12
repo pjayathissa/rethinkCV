@@ -107,7 +107,7 @@ vertical-align: bottom;
 .specs > li {
   display: inline-block;
   vertical-align: top;
-  width: 200px;
+  width: 500px;
 }
 
 .specs > li > span {

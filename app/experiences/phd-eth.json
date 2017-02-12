@@ -1,65 +1,16 @@
 {
-    "additionalFeatures": "Sensors: proximity, ambient light, barometer, gyroscope", 
-    "android": {
-        "os": "Android 3.0", 
-        "ui": "Honeycomb"
-    }, 
     "availability": [
-        ""
+        "http://www.systems.arch.ethz.ch/research/asf-adaptive-solar-facade.html",
+        "http://hilo.arch.ethz.ch/"
     ], 
-    "battery": {
-        "standbyTime": "336 hours", 
-        "talkTime": "24 hours", 
-        "type": "Other ( mAH)"
-    }, 
-    "camera": {
-        "features": [
-            "Flash", 
-            "Video"
-        ], 
-        "primary": "5.0 megapixels"
-    }, 
-    "connectivity": {
-        "bluetooth": "Bluetooth 2.1", 
-        "cell": "", 
-        "gps": true, 
-        "infrared": false, 
-        "wifi": "802.11 b/g/n"
-    }, 
     "description": "PhD in Sustainable Architecture. Integration of thin film photovoltaic panels to the existing building stock.", 
-    "display": {
-        "screenResolution": "WXGA (1200 x 800)", 
-        "screenSize": "10.1 inches", 
-        "touchScreen": true
-    }, 
-    "hardware": {
-        "accelerometer": true, 
-        "audioJack": "3.5mm", 
-        "cpu": "1 GHz Dual Core Tegra 2", 
-        "fmRadio": false, 
-        "physicalKeyboard": false, 
-        "usb": "USB 2.0"
-    }, 
+
     "id": "motorola-xoom-with-wi-fi", 
     "images": [
         "img/phd/HiLo.jpg", 
         "img/phd/phd2.jpg", 
         "img/phd/phd3.jpg", 
-        "img/phd/phd4.png", 
-        "img/phones/motorola-xoom-with-wi-fi.4.jpg", 
-        "img/phones/motorola-xoom-with-wi-fi.5.jpg"
+        "img/phd/phd4.png"
     ], 
-    "name": "PhD ETH Zurich", 
-    "sizeAndWeight": {
-        "dimensions": [
-            "249.1 mm (w)", 
-            "167.8 mm (h)", 
-            "12.9 mm (d)"
-        ], 
-        "weight": "708.0 grams"
-    }, 
-    "storage": {
-        "flash": "32000MB", 
-        "ram": "1000MB"
-    }
+    "name": "PhD ETH Zurich"
 }

@@ -12,6 +12,32 @@
         "snippet": "PhD in Sustainable Architecture. Integration of thin film photovoltaic panels to the existing building stock.",
         "mainText": "The thesis focuses on the use of thin film photovoltaic technologies as adaptive building envelopes"
     }, 
+        {
+        "importance": 5,
+        "startYear": 2013,
+        "endYear": 2016,
+        "skills": ["engineering", "management","start-up", "research", "python", "programming", "architecture", "industrial-design"],
+        "type": "project", 
+        "country": "Switzerland",
+        "id": "phd-eth", 
+        "imageUrl": "img/phd/HiLo.jpg", 
+        "name": "Adaptive Solar Facade", 
+        "snippet": "The Adaptive Solar Facade is a modular, dynamic building facade consisting of thin film movable solar panels.",
+        "mainText": "The thesis focuses on the use of thin film photovoltaic technologies as adaptive building envelopes"
+    }, 
+        {
+        "importance": 5,
+        "startYear": 2013,
+        "endYear": 2016,
+        "skills": ["engineering", "management","start-up", "research", "python", "programming", "architecture"],
+        "type": "project", 
+        "country": "Switzerland",
+        "id": "phd-eth", 
+        "imageUrl": "img/phd/HiLo.jpg", 
+        "name": "HiLo Building", 
+        "snippet": "HiLo is an innovative building in the domains of lightweight concrete construction and smart, adaptive building systems, planned as a duplex penthouse guest apartment",
+        "mainText": "The thesis focuses on the use of thin film photovoltaic technologies as adaptive building envelopes"
+    }, 
     {
         "importance": 5,
         "startYear": 2011,
@@ -36,8 +62,22 @@
         "id": "motorola-atrix-4g", 
         "imageUrl": "img/phones/motorola-atrix-4g.0.jpg", 
         "name": "Action From Switzerland", 
-        "snippet": "Humanitarian aid to the Greek Islands",
+        "snippet": "Action from Switzerland provides humanitarian aid to vulnerable female refugees on the Greek Island of Chios",
         "mainText": "Action from Switzerland ensures that vulnerable refugees are able to enjoy their rights on an equal basis, in safety and dignity through effective and coordinated aid"
+    }, 
+    {
+        "importance": 5,
+        "startYear": 2015,
+        "endYear": 2016,
+        "skills": ["management","start-up","climate-change","entrepreneurship","networking"],
+        "type": "organisation", 
+        "country": "Netherlands",
+        "carrier": "AT&T", 
+        "id": "motorola-atrix-4g", 
+        "imageUrl": "img/phones/motorola-atrix-4g.0.jpg", 
+        "name": "Climate-KIC Alumni Association", 
+        "snippet": "2014 Chairman of the Climate-KIC Alumni Association, a network of climate related start-up companies and inovators accross Europe",
+        "mainText": ""
     }, 
     {
         "importance": 3,

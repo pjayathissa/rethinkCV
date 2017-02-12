@@ -14,7 +14,7 @@ angular.
           template: '<standard-list></standard-list>'
         }).
         when('/world-map', {
-          template: '<world-map></world-map>'
+          template: '<world-map val="data"></world-map>'
         }).
         when('/phones/:phoneId', {
           template: '<phone-detail></phone-detail>'

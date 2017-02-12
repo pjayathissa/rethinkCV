@@ -6,7 +6,7 @@
 
 <h1>{{$ctrl.experience.name}}</h1>
 
-<p>{{$ctrl.experience.description}}</p>
+
 
 <ul class="phone-thumbs">
   <li ng-repeat="img in $ctrl.experience.images">
@@ -16,35 +16,11 @@
   </li>
 </ul>
 
+<div>
+<p>{{$ctrl.experience.description}}</p>
+</div>
 <ul class="specs">
-  <li>
-    <span>Availability and Networks</span>
-    <dl>
-      <dt>Availability</dt>
-      <dd ng-repeat="availability in $ctrl.experience.availability">{{availability}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Battery</span>
-    <dl>
-      <dt>Type</dt>
-      <dd>{{$ctrl.experience.battery.type}}</dd>
-      <dt>Talk Time</dt>
-      <dd>{{$ctrl.experience.battery.talkTime}}</dd>
-      <dt>Standby time (max)</dt>
-      <dd>{{$ctrl.experience.battery.standbyTime}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Storage and Memory</span>
-    <dl>
-      <dt>RAM</dt>
-      <dd>{{$ctrl.experience.storage.ram}}</dd>
-      <dt>Internal Storage</dt>
-      <dd>{{$ctrl.experience.storage.flash}}</dd>
-    </dl>
-  </li>
-  <li>
+<!--     <li>
     <span>Connectivity</span>
     <dl>
       <dt>Network Support</dt>
@@ -58,62 +34,16 @@
       <dt>GPS</dt>
       <dd>{{$ctrl.experience.connectivity.gps | checkmark}}</dd>
     </dl>
-  </li>
+  </li> -->
   <li>
-    <span>Android</span>
+    <span>Links</span>
     <dl>
-      <dt>OS Version</dt>
-      <dd>{{$ctrl.experience.android.os}}</dd>
-      <dt>UI</dt>
-      <dd>{{$ctrl.experience.android.ui}}</dd>
+      <dt></dt>
+      <dd ng-repeat="availability in $ctrl.experience.availability"><a href={{availability}}>{{availability}}</a></dd>
     </dl>
   </li>
-  <li>
-    <span>Size and Weight</span>
-    <dl>
-      <dt>Dimensions</dt>
-      <dd ng-repeat="dim in $ctrl.experience.sizeAndWeight.dimensions">{{dim}}</dd>
-      <dt>Weight</dt>
-      <dd>{{$ctrl.experience.sizeAndWeight.weight}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Display</span>
-    <dl>
-      <dt>Screen size</dt>
-      <dd>{{$ctrl.experience.display.screenSize}}</dd>
-      <dt>Screen resolution</dt>
-      <dd>{{$ctrl.experience.display.screenResolution}}</dd>
-      <dt>Touch screen</dt>
-      <dd>{{$ctrl.experience.display.touchScreen | checkmark}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Hardware</span>
-    <dl>
-      <dt>CPU</dt>
-      <dd>{{$ctrl.experience.hardware.cpu}}</dd>
-      <dt>USB</dt>
-      <dd>{{$ctrl.experience.hardware.usb}}</dd>
-      <dt>Audio / headphone jack</dt>
-      <dd>{{$ctrl.experience.hardware.audioJack}}</dd>
-      <dt>FM Radio</dt>
-      <dd>{{$ctrl.experience.hardware.fmRadio | checkmark}}</dd>
-      <dt>Accelerometer</dt>
-      <dd>{{$ctrl.experience.hardware.accelerometer | checkmark}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Camera</span>
-    <dl>
-      <dt>Primary</dt>
-      <dd>{{$ctrl.experience.camera.primary}}</dd>
-      <dt>Features</dt>
-      <dd>{{$ctrl.experience.camera.features.join(', ')}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Additional Features</span>
-    <dd>{{$ctrl.experience.additionalFeatures}}</dd>
-  </li>
+
+  
+  
+    
 </ul>

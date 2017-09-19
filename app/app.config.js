@@ -16,6 +16,9 @@ angular.
         when('/world-map', {
           template: '<world-map val="data"></world-map>'
         }).
+        when('/about', {
+          template: '<about></about>'
+        }).
         when('/phones/:phoneId', {
           template: '<phone-detail></phone-detail>'
         }).

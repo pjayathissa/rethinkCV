@@ -1,0 +1,15 @@
+{
+    "availability": [
+        ""
+    ], 
+    "description": "CyAura is an augmented reality web-app for building occupants. Through the combination of computer vision and indoor positioning services, the user is capable of interacting with components of the building and report issues. The technology is still in a prototpype phase ", 
+
+    "id": "cyaura", 
+    "images": [
+        "img/cyaura/background.jpg",
+        "img/cyaura/logo.png",
+        "img/cyaura/diagram.jpg"
+
+    ], 
+    "name": "CyAura"
+}

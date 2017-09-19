@@ -9,5 +9,6 @@ angular.module('phonecatApp', [
   'phoneList',
   'standardList',
   'experienceDetail',
-  'worldMap'
+  'worldMap',
+  'about'
 ]);

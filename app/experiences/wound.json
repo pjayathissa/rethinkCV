@@ -1,0 +1,18 @@
+{
+    "availability": [
+
+    ], 
+    "description": "I combined my prior knowledge of micro-fabrication to design and produce a micro structured plaster. The plaster was able to heal wounds three times faster than a non-structured plaster. This work was part of my Master Thesis.", 
+
+    "id": "motorola-xoom-with-wi-fi", 
+    "images": [
+        "img/woundhealing/PDMS_gratings_45d.png", 
+        "img/woundhealing/PDMS_gratings_SEM.png", 
+        "img/woundhealing/radial_rings.png", 
+        "img/woundhealing/seedcells.png", 
+        "img/woundhealing/apply.png",
+        "img/woundhealing/cells.png"
+
+    ], 
+    "name": "Accelerated Wound Healing"
+}

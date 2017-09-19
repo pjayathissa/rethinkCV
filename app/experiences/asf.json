@@ -1,0 +1,22 @@
+{
+    "availability": [
+        "http://www.systems.arch.ethz.ch/research/asf-adaptive-solar-facade.html",
+        "http://hilo.arch.ethz.ch/",
+        "http://www.sciencedirect.com/science/article/pii/S0306261917305810"
+    ], 
+    "description": "I  lead the mechanical design and construction of the adaptive solar façade for a research and innovation unit called the HiLo. The façade consists of an array of actuated photovoltaic panels that can track the sun, and regulate the interior temperature through adaptive shading. ", 
+
+    "id": "asf", 
+    "images": [
+        "img/asf/asf_honr.png", 
+        "img/asf/ASFFront.jpg",
+        "img/asf/asf_const.jpg",
+        "img/asf/assembly.JPG",
+        "img/asf/assembly2.JPG",
+        "img/asf/assembly3.png",
+        "img/asf/assembly4.JPG",
+        "img/asf/ExplodedView2.png"
+
+    ], 
+    "name": "Adaptive Solar Facade"
+}

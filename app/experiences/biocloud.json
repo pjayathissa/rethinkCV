@@ -1,0 +1,17 @@
+{
+    "availability": [
+        "https://www.youtube.com/watch?v=cHmlaVmdwnM"
+    ], 
+    "description": "", 
+
+    "id": "motorola-xoom-with-wi-fi", 
+    "images": [
+        "img/biocloud/placeit.jpg", 
+        "img/biocloud/logo2.png", 
+        "img/biocloud/presentation.png", 
+        "img/biocloud/screenshot1.png", 
+        "img/biocloud/screenshot2.png"
+
+    ], 
+    "name": "BioCloud"
+}

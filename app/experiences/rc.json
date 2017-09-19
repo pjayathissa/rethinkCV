@@ -1,0 +1,13 @@
+{
+    "availability": [
+        "https://github.com/architecture-building-systems/RC_BuildingSimulator"
+    ], 
+    "description": "The RC Building Simulator is a python package for simulating the energetic performance of a building. It was initially designed for the Adaptive Solar Facade models, but is now used in other applications such as building retrofit studies.", 
+
+    "id": "motorola-xoom-with-wi-fi", 
+    "images": [
+        "img/rc_simulator/rc.png"
+
+    ], 
+    "name": "Resistance Capacitance based Building Simulator"
+}

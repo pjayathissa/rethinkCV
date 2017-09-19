@@ -1,0 +1,20 @@
+{
+    "availability": [
+        "http://actionfromswitzerland.ch/",
+        "https://www.facebook.com/actionfromswitzerland/"
+    ], 
+    "description": "Action from Switzerland provides support for vulnerable refugees in Greece and Switzerland. I am the Swiss coordiantor that overlooks all activities running in Switzerland. This includes fundraising, social media, legal support and local integration projects. Our primary project, The Athena Centre for Women, is a female only safe space which offers protection, information, psycological support and educational services on the Greek island of Chios. Since its opening the centre has had more than 4000 visitors", 
+
+    "id": "afs", 
+    "images": [
+        "img/actionfromswitzerland/dog.JPG", 
+        "img/actionfromswitzerland/speech_small.png", 
+        "img/actionfromswitzerland/life.jpg",
+        "img/actionfromswitzerland/not.jpg",
+        "img/actionfromswitzerland/athena.jpg",
+        "img/actionfromswitzerland/jackets.JPG", 
+        "img/actionfromswitzerland/barbedWire.JPG"
+
+    ], 
+    "name": "Action from Switzerland"
+}

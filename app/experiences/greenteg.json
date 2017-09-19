@@ -1,0 +1,17 @@
+{
+    "availability": [
+        ""
+    ], 
+    "description": "greenTEG is a Swiss start-up company that has developed a novel thermo-electric generator. It is a small solid state chip with no moving parts, that converts heat directly into electricity. My work at greenTEG included: Optimising an electroless Nickle plating process, designing and building a thermal simulator, and designing and building a thermocycling oven", 
+
+    "id": "blank", 
+    "images": [
+        "img/greenteg/IMG_5606.JPG",
+        "img/greenteg/IMG_5607.JPG",
+        "img/greenteg/IMG_5608.JPG",
+        "img/greenteg/IMG_5609.JPG",
+        "img/greenteg/IMG_5610.JPG"
+
+    ], 
+    "name": ""
+}

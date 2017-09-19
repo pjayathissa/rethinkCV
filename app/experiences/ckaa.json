@@ -1,0 +1,17 @@
+{
+    "availability": [
+        "http://ckaa.eu/",
+        "http://www.climate-kic.org/"
+    ], 
+    "description": "Climate-KIC is the largest climate initiative of the EU. During 2014 I was elected as chairman of the Alumni Association, which consisted of a European wide member base of 2500 entrepreneurs.", 
+
+    "id": "ckaa", 
+    "images": [
+        "img/ckaa/talk2.jpg", 
+        "img/ckaa/talk1.jpg", 
+        "img/ckaa/group.jpg", 
+        "img/ckaa/logo.jpg"
+
+    ], 
+    "name": "Climate-KIC Alumni Association"
+}

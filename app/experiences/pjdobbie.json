@@ -1,0 +1,15 @@
+{
+    "availability": [
+        "http://www.pjdobbie.co.nz/"
+    ], 
+    "description": "I  founded and ran an engineering consultancy for start-ups. Work included prototyping, running feasibility studies, and detail design. I had eight permanent clients and ran a small team of three people.", 
+
+    "id": "pjdobbie", 
+    "images": [
+        "img/pjdobbie/pjdobbie.png",
+        "img/pjdobbie/yikebike.jpg",
+        "img/pjdobbie/Turbine.PNG"
+
+    ], 
+    "name": "PJ Dobbie Engineering Ltd"
+}

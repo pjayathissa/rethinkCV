@@ -1,0 +1,16 @@
+{
+    "availability": [
+        "http://pubs.acs.org/doi/abs/10.1021/nn5036125"
+    ], 
+    "description": "Microstructured silicon mould produced with photolithographic techniques. The silicon mould is then used to create a PDMS membrane which can be infused into a bacterial chamber to produce a microstructured cellulose material.", 
+
+    "id": "blank", 
+    "images": [
+        "img/fibroticpatch/patch.png",
+        "img/fibroticpatch/AF_schem.png",
+        "img/fibroticpatch/13022014_AFpatch_0002.jpg",
+        "img/fibroticpatch/AF_patch_manufacture.png"
+
+    ], 
+    "name": "Antifibrotic Patch Design"
+}

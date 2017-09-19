@@ -1,0 +1,14 @@
+{
+    "availability": [
+        "http://hilo.arch.ethz.ch/"
+    ], 
+    "description": "The HiLo is research and innovation unit constructed at the NEST in Dubendorf. The HiLo is the first application of the Adaptive Solar Facade. My work here involves the integration of the Adaptive Solar Facade into this building.", 
+
+    "id": "hilo", 
+    "images": [
+        "img/hilo/HiLo.jpg", 
+        "img/hilo/170719_HiLo_Render_01.png"
+
+    ], 
+    "name": "HiLo Building"
+}

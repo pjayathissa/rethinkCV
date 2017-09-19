@@ -1,0 +1,15 @@
+{
+    "availability": [
+        "http://www.windflow.co.nz/"
+    ], 
+    "description": "Bachelor of Mechanical Engineering with a focus towards energy systems. Bachelor thesis was an industrial project involving Windlow Technologies to conduct a CFD analysis on their windturbines.", 
+
+    "id": "blank", 
+    "images": [
+        "img/bachelor/streamlines3.png",
+        "img/bachelor/plane2.png",
+        "img/bachelor/surface_pressure_blades.png"
+
+    ], 
+    "name": "Bachelor of Mechanical Engineering"
+}

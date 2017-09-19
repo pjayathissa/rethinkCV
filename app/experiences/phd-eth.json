@@ -3,14 +3,18 @@
         "http://www.systems.arch.ethz.ch/research/asf-adaptive-solar-facade.html",
         "http://hilo.arch.ethz.ch/"
     ], 
-    "description": "PhD in Sustainable Architecture. Integration of thin film photovoltaic panels to the existing building stock.", 
+    "description": "I conduct research in adaptive control algorithms for application in the HiLo building described above. The research combines model predictive control development, combined with machine learning algorithms to control the orientation of the solar modules. The research generated in this PhD was used for the design of the Adaptive Solar Facade and the HiLo building.", 
 
     "id": "motorola-xoom-with-wi-fi", 
     "images": [
         "img/phd/HiLo.jpg", 
+        "img/phd/phd1.png", 
         "img/phd/phd2.jpg", 
         "img/phd/phd3.jpg", 
-        "img/phd/phd4.png"
+        "img/phd/phd4.png",
+        "img/phd/phd5.jpg",
+        "img/phd/phd6.png"
+
     ], 
     "name": "PhD ETH Zurich"
 }

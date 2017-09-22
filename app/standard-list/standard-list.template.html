@@ -1,29 +1,7 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-2">
-      <!--Sidebar content-->
 
-      <p>
-        Search:
-        <input ng-model="$ctrl.query" />
-      </p>
-
-      <p>
-        Sort by:
-        <select ng-model="$ctrl.orderProp">
-          <option value="name">Alphabetical</option>
-          <option value="-endYear">Reverse Cronological</option>
-          <option value="-importance">Relevance </option>
-        </select>
-      </p>
-
-      <ul ng-repeat="skill in $ctrl.skillList">
-
-        <input ng-model="$ctrl.skillProp[skill]" ng-click="$ctrl.fooChanged()" type="checkbox" value="skill"> {{skill}}</p>
-      </ul>
-
-    </div>
-    <div class="col-md-10">
+<div class="col-md-10">
       <!--Body content-->
       <ul class="border-box">
         <li ng-repeat="experience in $ctrl.newList | filter:$ctrl.query |  orderBy:$ctrl.orderProp"
@@ -41,5 +19,31 @@
       </ul>
 
     </div>
+
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      <p>
+        Search:
+        <input ng-model="$ctrl.query" />
+      </p>
+
+      <p>
+        Sort by:
+        <select ng-model="$ctrl.orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="-endYear">Reverse Cronological</option>
+          <option value="-importance">Relevance </option>
+        </select>
+      </p>
+
+      <p> Skills: </p>
+      <ul ng-repeat="skill in $ctrl.skillList">
+
+        <input ng-model="$ctrl.skillProp[skill]" ng-click="$ctrl.fooChanged()" type="checkbox" value="skill"> {{skill}}</p>
+      </ul>
+
+    </div>
+    
   </div>
 </div>

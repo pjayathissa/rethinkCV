@@ -10,5 +10,6 @@ angular.module('phonecatApp', [
   'standardList',
   'experienceDetail',
   'worldMap',
+  'nodeMap',
   'about'
 ]);
